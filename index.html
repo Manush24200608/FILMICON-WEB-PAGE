@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Filmicon - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    body {
+      background: #121212;
+      color: #f1f1f1;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 30px 20px;
+      background: #1e1e1e;
+      text-align: center;
+      border-bottom: 2px solid #444;
+    }
+
+    .logo {
+      font-size: 3rem;
+      color: #00ffcc;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 60px 20px;
+      border-bottom: 1px solid #333;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #00ffcc;
+      margin-bottom: 30px;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+
+    p {
+      max-width: 900px;
+      margin: 10px auto;
+      font-size: 1.2rem;
+      color: #d0d0d0;
+      text-align: center;
+    }
+
+    .team {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 50px;
+      margin-top: 40px;
+    }
+
+    .member {
+      background: #1b1b1b;
+      padding: 25px;
+      border-radius: 12px;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 0 15px #00ffcc33;
+      transition: transform 0.3s ease;
+    }
+
+    .member:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px #00ffcc55;
+    }
+
+    .member img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #00ffcc;
+      margin-bottom: 15px;
+    }
+
+    .ai-image {
+      width: 100%;
+      max-width: 900px;
+      margin: 40px auto;
+      display: block;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #00ffcc44;
+    }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+      padding: 0 10px;
+    }
+
+    .product-card {
+      background: #1b1b1b;
+      border-radius: 10px;
+      padding: 25px 20px;
+      text-align: center;
+      box-shadow: 0 0 10px #00ffcc22;
+      transition: 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 25px #00ffcc55;
+    }
+
+    .product-card span {
+      font-size: 2rem;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      text-align: center;
+      line-height: 2;
+    }
+
+    footer {
+      background: #1e1e1e;
+      text-align: center;
+      padding: 20px;
+      color: #999;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">🎬 FILMICON</div>
+    <p>The future of storytelling</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>
+      Filmicon is a next-gen startup built by passionate minds. CEO <b>Manush G</b> is a marketing genius and design enthusiast who brings business vision to life. CTO <b>Dhanush K</b> is the backbone of the technology — building the entire platform and handling the digital infrastructure. Together, they are reshaping how stories are born and delivered.
+    </p>
+  </section>
+
+  <section>
+    <h2>Our Mission & Vision</h2>
+    <p>
+      We aim to blend imagination and personalization into a single cinematic experience. Our vision is to let anyone become part of a story — not just read or watch it.
+    </p>
+    <p>
+      Once logged in, users select genres and mix chits. Based on that, they get a unique story name and a one-line summary. If they like it, they can order a surprise kit which includes story character props, background info, costume items, and more. 
+    </p>
+    <img src="https://uploadthing.com/f/04a26393-4b3d-462f-91e2-4df72d9c326a-a_website_homepage_image_for_FilmIcon,_a_company_s.png" alt="AI Startup Image" class="ai-image" />
+  </section>
+
+  <section>
+    <h2>Meet Our Team</h2>
+    <div class="team">
+      <div class="member">
+        <img src="https://api.dicebear.com/7.x/adventurer-neutral/svg?seed=manush" alt="CEO Image"/>
+        <h3>CEO - Manush G</h3>
+        <p>Leading with bold vision and creativity. Manush shapes the startup's identity and drives growth through strategic design and business planning.</p>
+      </div>
+      <div class="member">
+        <img src="https://api.dicebear.com/7.x/adventurer-neutral/svg?seed=dhanush" alt="CTO Image"/>
+        <h3>CTO - Dhanush K</h3>
+        <p>The tech wizard of Filmicon. Dhanush builds and manages everything from the core website to AI logic for generating stories and surprise kits.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Our Products</h2>
+    <div class="products-grid">
+      <div class="product-card">
+        <span>🎁</span>
+        <h3>Surprise Story Kits</h3>
+        <p>Get physical kits with story props, costumes, and secrets.</p>
+      </div>
+      <div class="product-card">
+        <span>📚</span>
+        <h3>Genre Story Tools</h3>
+        <p>Explore stories by theme and mood. Customize your vibe.</p>
+      </div>
+      <div class="product-card">
+        <span>🤖</span>
+        <h3>AI Story Mixer</h3>
+        <p>Generate one-line story plots using AI-powered chit mixing.</p>
+      </div>
+      <div class="product-card">
+        <span>🧙‍♂️</span>
+        <h3>Character Props</h3>
+        <p>Real-world items inspired by your chosen characters.</p>
+      </div>
+      <div class="product-card">
+        <span>🌐</span>
+        <h3>Interactive WebApp</h3>
+        <p>Coming soon: fully immersive story-building interface.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <div class="contact">
+      <p>Email: hello@filmicon.in</p>
+      <p>Phone: +91 9876543210</p>
+      <p>Instagram: @filmicon.in</p>
+      <p>Location: Bengaluru, India</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Coming Soon</h2>
+    <p>
+      Our surprise kit delivery portal and interactive story builder are launching soon. Sign up early to get exclusive stories and free surprise kits on Day 1.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Filmicon. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
